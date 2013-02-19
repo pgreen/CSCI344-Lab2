@@ -1,0 +1,35 @@
+header {
+  padding: 30px;
+  font-family: Roboto Condensed;
+  background-color: #7bc577;
+  border-color: #2b8027;
+  border-width: 30px;
+}
+
+header h1 {
+  padding-left: 400px;
+}
+
+header h3 {
+  padding-left: 360px;
+}
+
+div {
+  width: 480px;
+  margin-left: 80px;
+}
+
+p {
+  width: 960px;
+  padding: 20px;
+  margin-left: 80px;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  background-color: #a2e29f;
+  border-color: #2b8027;
+  border-width: 20px;
+}
+
+.hide {
+  display: none;
+}
