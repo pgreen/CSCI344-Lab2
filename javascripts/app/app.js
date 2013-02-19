@@ -1,7 +1,7 @@
 var main = function(){
   var twitter = new ctwitter.CTwitter();
   var countTweet = 1;
-  twitter.stream("statuses/filter", {lang:"en", track:["Ruby on Rails", "Node.js", "Oracle SQL"]
+  twitter.stream("statuses/filter", {lang:"en", track:["Ruby On Rails","Node.js", "Oracle SQL"]
   }, function(stream){
     stream.on("data", function(tweet){
       if(countTweet <= 10){
